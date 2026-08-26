@@ -1,7 +1,7 @@
 # Insights Summary
 
 
-# E-Commerce Funnel & Purchase Path Intelligence
+# E-commerce Funnel and Customer Behaviour Decision Analysis
 
 ## Overview
 
