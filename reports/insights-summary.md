@@ -1,12 +1,10 @@
 # Insights Summary
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#insights-summary)
 
 # E-Commerce Funnel & Purchase Path Intelligence
 
 ## Overview
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#overview)
 
 This document summarizes the key business insights derived from the session-level e-commerce funnel and purchase-path analysis.
 
@@ -16,7 +14,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Funnel Performance
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#funnel-performance)
 
 - The strict funnel begins with **4,280,701 View sessions**.
 - **788,430 sessions** contain both View and Cart activity, resulting in an **18.42% View → View+Cart conversion rate**.
@@ -29,7 +26,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Purchase Path Performance
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#purchase-path-performance)
 
 - **Immediate purchases account for 106,526 purchase sessions**, representing **68.45% of all purchase sessions**.
 - Immediate purchases generate **4.34M in revenue**, representing **68.40% of total purchase-path revenue**.
@@ -42,7 +38,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Revenue Performance
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#revenue-performance)
 
 - The analyzed purchase paths generate approximately **6.35M in total purchase-path revenue**.
 - **Immediate purchases contribute 4.34M**, making them the primary revenue source.
@@ -54,7 +49,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Purchase Economics
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#purchase-economics)
 
 - **Immediate AOV is approximately 40.76**, with an average basket size of **8.25 items**.
 - **Delayed AOV is approximately 40.77**, with an average basket size of **8.28 items**.
@@ -67,7 +61,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Customer Journey Implications
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#customer-journey-implications)
 
 - The analysis demonstrates that **cart creation does not necessarily translate into immediate purchase**.
 - The existence of **48,250 Delayed purchase sessions** shows that a meaningful portion of customers convert after earlier engagement rather than completing the transaction immediately.
@@ -78,7 +71,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Product & Category Analysis
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#product-category-analysis)
 
 - The notebook extends the analysis to **top products and categories by purchase-session and revenue contribution**.
 - Product-level analysis is segmented by Immediate, Delayed, and Direct purchase paths, allowing high-performing products to be evaluated in the context of customer journey type.
@@ -89,7 +81,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Customer & Time Analysis
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#customer-time-analysis)
 
 - The notebook analyzes purchase behavior by **month, weekday, and hour of day** to identify demand concentration.
 - It also classifies purchasing users as **New or Returning** based on observed purchase history.
@@ -100,7 +91,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Data Quality Considerations
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#data-quality-considerations)
 
 - The combined dataset contains **20,692,840 event rows** before removing records with missing `user_session`.
 - There are **4,598 rows with missing user sessions**, so these rows are excluded from session-based funnel analysis.
@@ -112,7 +102,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Key Business Takeaways
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#key-business-takeaways)
 
 - The largest funnel loss occurs between **View and View+Cart**, where **81.58% of sessions drop out**.
 - The **View+Cart → Purchase stage is the strongest immediate conversion opportunity**, with an **86.49% drop-off**.
@@ -127,7 +116,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Recommendations
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#recommendations)
 
 - **Prioritize cart-to-purchase conversion:** investigate checkout friction, payment experience, shipping/price visibility, and other barriers that may explain the **86.49% drop-off**.
 - **Build delayed-conversion recovery journeys:** use reminders, cart persistence, personalized follow-ups, and retargeting to capture customers who do not purchase immediately.
@@ -139,7 +127,6 @@ The analysis covers five monthly datasets from **October 2019 to February 2020**
 
 ## Conclusion
 
-[svg](https://github.com/[GITHUB_USERNAME]/[REPOSITORY_NAME]/blob/main/reports/insights-summary.md#conclusion)
 
 The analysis shows that the major commercial challenge is **not lack of purchase activity, but substantial leakage at the customer-journey stages before purchase completion**. The strongest opportunity is to improve the transition from **Cart to Purchase**, while treating the **Delayed purchase path as a meaningful source of recoverable demand and revenue**.
 
