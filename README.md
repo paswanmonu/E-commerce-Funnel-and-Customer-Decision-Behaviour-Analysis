@@ -1,4 +1,4 @@
-# E-commerce Funnel and Customer Decision Analysis
+# E-commerce Funnel and Customer Behaviour Decision Analysis
 
 ## Executive Summary
 
